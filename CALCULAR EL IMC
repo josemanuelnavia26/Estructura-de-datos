@@ -1,0 +1,7 @@
+#Calcular el IMC
+peso=input("ingrese la altura:")
+print=(peso)
+altura=input("ingrese la altura:")
+print(altura)
+masa=(peso/altura/100)
+print(masa)
