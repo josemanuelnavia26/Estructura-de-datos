@@ -1,0 +1,8 @@
+nombre=input("Ingrese el nombre:")
+genero=input("cual es tu sexo(masculino o femenino)?:")
+
+if(genero == "masculino" and nombre.minuscula()<'m') or (genero == "femenino" and nombre.minuscula()>'n'):
+   grupo="A"
+else
+   grupo="B"
+print("Tu grupo es" + grupo)
