@@ -1,0 +1,18 @@
+nombre= input("Ingresa tu nombre: ")
+print("hola" + nomnbre "!!" )
+#Calculos y operaciones
+print(((3+2)/(2*5))**2)
+#Pedir horas y costo por hora y calcular el
+horas=float (input("Ingrese las horas: "))
+costo=float (input("Ingrese el costo: "))
+monto= horas*costo
+print(monto)
+#area del rectangulo
+base=float(input("ingrese la base del rectangulo:"))
+altura=float(input("ingrese la altura del rectangulo:"))
+area=(base*altura)
+print(area)
+#Suma de n numeros enteros
+final=int(input("ingrese la numero enteros"))
+suma=(n*(n+1))/2
+print(suma)
